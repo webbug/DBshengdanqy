@@ -1,0 +1,581 @@
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+img {
+	vertical-align: top;
+	border: none;
+}
+
+.com_bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+.com_bgp1 {
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translate(-50%,0);
+}
+
+.com_btn {
+	position: absolute;
+	width: 100%;
+	left: 0px;
+}
+
+div {
+	overflow: hidden;
+}
+
+.ani {
+	transition: all linear .3;
+	-webkit-transition: all linear .3;
+}
+
+.trf {
+	transform: translate3d();
+	-webkit-transform: translate3d();
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#map {
+	width: 3000px;
+	height: 4384px;
+	position: relative;
+}
+
+.map {
+	width: 3000px;
+	height: 4384px;
+	position: absolute;
+}
+
+#mapc {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+#car {
+	width: 1200px;
+	height: 1200px;
+	z-index: 3;
+	position: absolute;
+}
+
+#pop {
+	display: none;
+	overflow: visible;
+}
+
+.popw {
+	position: absolute;
+	z-index: 9999;
+	top: 0px;
+	overflow: visible;
+}
+
+.pop {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 9;
+	top: 0px;
+	overflow: visible;
+}
+
+.close {
+	top: 15%;
+	z-index: 999;
+}
+
+.price {
+	bottom: 0%;
+	z-index: 999;
+}
+
+#p5 {
+	display: none;
+}
+
+#p4 {
+	display: none;
+}
+
+#p3 {
+	display: none;
+}
+
+#p2 {
+	display: none;
+}
+
+#p1 {
+	display: none;
+}
+
+#hint {
+	position: absolute;
+	z-index: 9999;
+	top: 0px;
+	display: none;
+}
+
+.hint_btns {
+	position: absolute;
+	z-index: 99;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+
+.hint_btns img {
+	width:100%;
+	float: left;
+}
+
+.pri {
+	display: none;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+
+#hit {
+	display: none;
+	float: right;
+}
+
+.logo {
+	position: fixed;
+	top: 1%;
+	right: 1%;
+	width: 100%;
+	z-index: 9999;
+}
+
+#loading {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 99999;
+	background-color: #000000;
+	background-image: url(../img/loading/loadbg.jpg);
+	background-repeat: no-repeat;
+}
+
+.load {
+	position: absolute;
+	width: 100%;
+	top: 40%;
+}
+
+.loadtxt {
+	position: absolute;
+	width: 100%;
+	top: 55%;
+}
+
+#Allstuff {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+.spinner {
+	margin: 100px auto;
+	width: 90px;
+	height: 90px;
+	position: relative;
+	text-align: center;
+	-webkit-animation: rotate 2.0s infinite linear;
+	animation: rotate 2.0s infinite linear;
+}
+
+.mapPoint {
+	position: absolute;
+}
+
+#point1 {
+	top: 640px;
+	left: 1026px;
+}
+
+#point2 {
+	top: 1128px;
+	left: 1750px;
+}
+
+#point3 {
+	top: 1620px;
+	left: 690px;
+}
+
+#point4 {
+	top: 1960px;
+	left: 1550px;
+}
+
+#point5 {
+	top: 2540px;
+	left: 1270px;
+}
+
+
+#point6 {
+	top: 800px;
+	left: 500px;
+}
+
+#Prompt {
+	position: absolute;
+	z-index: 9999;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+}
+
+#Prompt_text {
+	bottom: 0px;
+}
+
+#details {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	display: none;
+}
+
+.details_text {
+	position: relative;
+	width: 80%;
+	height: 59%;
+	overflow: scroll;
+	margin: 0 auto;
+	margin-top: 49%;
+}
+
+.details-c {
+	width: 100%;
+}
+
+#det_close {
+	z-index: 9;
+	top: 15%;
+}
+
+.gameArea {
+	position: absolute;
+	top: 120px;
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+#areap1 {
+	position: absolute;
+	width: 19%;
+	height: 6%;
+	top: 57%;
+	left: 57%;
+	z-index: 9;
+}
+
+#areap2 {
+	position: absolute;
+	width: 21%;
+	height: 9%;
+	top: 39%;
+	left: 56%;
+	z-index: 9;
+}
+
+#areap3 {
+	position: absolute;
+	width: 17%;
+	height: 8%;
+	top: 58%;
+	left: 30%;
+	z-index: 9;
+}
+
+#areap4 {
+	position: absolute;
+	width: 10%;
+	height: 5%;
+	top: 50%;
+	left: 46%;
+	z-index: 9;
+}
+
+#areap5 {
+	position: absolute;
+	width: 21%;
+	height: 12%;
+	top: 40%;
+	left: 19%;
+	z-index: 9;
+}
+
+.com_wrap {
+	top: 0px;
+	left: 0px;
+	position: fixed;
+}
+
+#continueGame {
+	position: fixed;
+	width: 49%;
+	bottom: 2%;
+	left: 25%;
+	z-index: 9;
+	opacity: 0;
+	display: none;
+}
+
+#music {
+	position: absolute;
+	z-index: 9999;
+	top: 10%;
+	right: 1%;
+	width: 13%;
+	opacity: 0.5;
+}
+
+@keyframes music {
+	0%,
+	50%,
+	100% {
+		opacity: 0.4;
+		transform: rotate(-20deg)
+	}
+	25%,
+	75% {
+		opacity: 1;
+		transform: rotate(20deg)
+	}
+}
+
+@-webkit-keyframes music {
+	0%,
+	50%,
+	100% {
+		opacity: 0.4;
+		-webkit-transform: rotate(-20deg)
+	}
+	25%,
+	75% {
+		opacity: 1;
+		-webkit-transform: rotate(20deg)
+	}
+}
+
+.music {
+	-webkit-animation: music 3s ease infinite;
+	animation: music 3s ease infinite;
+}
+
+@-webkit-keyframes flash {
+	0%,
+	50%,
+	100% {
+		opacity: 0.4;
+	}
+	25%,
+	75% {
+		opacity: 0.8;
+	}
+}
+
+@keyframes flash {
+	0%,
+	50%,
+	100% {
+		opacity: 0.4;
+	}
+	25%,
+	75% {
+		opacity: 0.8;
+	}
+}
+
+.flash {
+	-webkit-animation: flash 1s ease infinite;
+	animation: flash 1s ease infinite;
+}
+
+@-webkit-keyframes phone {
+	0%,
+	50%,
+	100% {
+		-webkit-transform: rotate(20deg)
+	}
+	25%,
+	75% {
+		-webkit-transform: rotate(-20deg)
+	}
+}
+
+@keyframes phone {
+	0%,
+	50%,
+	100% {
+		transform: rotate(20deg)
+	}
+	25%,
+	75% {
+		transform: rotate(-20deg)
+	}
+}
+
+.phone {
+	-webkit-animation: phone 5s ease infinite;
+	animation: phone 5s ease infinite;
+	z-index: 999;
+}
+
+@-webkit-keyframes around {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes around {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.around {
+	-webkit-animation: around linear infinite 1.4s;
+	;
+	animation: around linear infinite 1.4s;
+}
+
+@-webkit-keyframes flash {
+	0%,
+	50%,
+	100% {
+		opacity: 0.4;
+	}
+	25%,
+	75% {
+		opacity: 0.7;
+	}
+}
+
+@keyframes flash {
+	0%,
+	50%,
+	100% {
+		opacity: 0.4;
+	}
+	25%,
+	75% {
+		opacity: 0.7;
+	}
+}
+
+.flash {
+	-webkit-animation: flash 5s ease infinite;
+	animation: flash 5s ease infinite;
+}
+
+@-webkit-keyframes flash1 {
+	0%,
+	50%,
+	100% {
+		opacity: 0.4;
+	}
+	25%,
+	75% {
+		opacity: 0.7;
+	}
+}
+
+@keyframes flash1 {
+	0%,
+	50%,
+	100% {
+		opacity: 0.4;
+	}
+	25%,
+	75% {
+		opacity: 0.7;
+	}
+}
+
+.flash1 {
+	-webkit-animation: flash 2s ease infinite;
+	animation: flash 2s ease infinite;
+}
+
+.horizontal {
+	position: absolute;
+	z-index: 999999;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	background-color: #000000;
+	display: none;
+}
+
+.horizontal h1 {
+	margin-top: 20%;
+	color: #FFFFFF;
+	font-size: 24px;
+	margin-left: 25%;
+}
+
+#load_bar {
+	width: 0%;
+	position: absolute;
+	opacity: 0;
+}
+
+.load_bar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
